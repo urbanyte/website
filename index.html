@@ -2,122 +2,310 @@
 
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&display=swap" rel="stylesheet">
 <head>
+
+
+    .site-wrap {overflow-x:hidden}
     <meta charset="utf-8" />
-    <title>Initiation</title>    
+    <title>Initiation</title>
     <style type="text/css">
-<!--
-.style8 {font-size: 14px}
--->
+        <!--
+        .style8 {
+            font-size: 14px
+        }
+        -->
     </style>
 </head>
 <style>
-    .foot {
-        background-color : black;
-        color:white;
-        position : fixed;
-        left : 0;
-        bottom : 0;
-        width 100%
+ 
+
+    header {
+        display : flex;
+        justify-content: space-between;
+        padding: 30px 10%;
         
+    }
+    li, a{
+        font-family: 'Otomanopee One';
+        font-weight : 500;
+        font-size : 16px;
+        color : white;
+        text-decoraction : none;
+    }
+    h1 {
+        margin-bottom: -6px;
+    }
+    .foot {
+        
+        color: white;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width 100%;
 
     }
+    .logo {
+        cursor : pointer;
+    }
+    .nav_links{
+        list-style: none;
+    }
+    .nav_links li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    .nav_links li a {
+        transition: all 0.3s ease 0s;
+    }
+    .nav_links li a:hover{
+        color :cornflowerblue;
+    }
+
     .h1 {
         font-family: "Lucida Console", "Courier New", monospace;
     }
-    .div{
-        align-content:center;
-        background-color:black;
-        text-align:center;
-        color:white;
+
+    .div {
+        align-content: center;
+        background-color: black;
+        text-align: center;
+        color: white;
         width: 60%;
         height 20%;
-        
     }
-.div1 {        align-content:center;
-        background-color:black;
-        text-align:center;
-        color:white;
+    .white-bg{
+        background-color : floralwhite;
+        color : black;
+    }
+
+    .div1 {
+        align-content: center;
+        background-color: black;
+        text-align: center;
+        color: white;
         width: 60%;
         height 20%;
-		
-}
+    }
 
-.style5 {font-size: 18px}
-.style6 {font-family: "Courier New", Courier, mono}
-.style7 {font-size: 18px; font-family: "Courier New", Courier, mono; }
-.style9 {font-size: 9px}
-.style10 {font-size: medium}
+    .style5 {
+        font-size: 18px
+    }
+
+    .style6 {
+        font-family: "Courier New", Courier, mono
+    }
+
+    .style7 {
+        font-size: 18px;
+        font-family: "Courier New", Courier, mono;
+    }
+
+    .style9 {
+        font-size: 9px
+    }
+
+    .style10 {
+        font-size: medium
+    }
+
+    .body {
+        background-color: black;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .white-text {
+        font-family: "Otomanopee One";
+        color : white;
+    }
+    .courier {
+        font-family: 'Courier Prime', monospace;
+ 
+    }
+    .Amatic{
+        font-family : "Amatic SC";
+        color : white;
+    }
+    .footer{
+        background-color : floralwhite;
+        color : black;
+        height : 200px;
+        position : relative;
+
+    }
+    .footer .footer-bottom{
+        background-color : black;
+        color : white;
+        height : 50px;
+        width : 100px;
+        text-align : center;
+        postition : absolute;
+        bottom : 0px;
+        left : 0px;
+        padding-top : 20px;
+    }
+    .footer .footer-nav{
+        color : black;
+        font-family : 'Otomanopee One', sans-serif;
+        align-content : center;
+    }
+    html {
+        scroll-behavior: smooth;
+        position : relative;
+    }
 </style>
-<body>
+<body class="body" style="scroll-behavior : smooth" id="body">
     <br />
-<header style="background-color:black"; width : 100%>
-    <br />
-    <h3 style= "color:white"><i>made with html</i> </h3>
-    <h2 style= "color:white"><i> a website not meant to go public</i> </h3>
-    <h1 class="h1"; style= "color:white";> Sameen's Website </h1style="background-color:black">
-    <br />
-    <br />
-</header><main>
-<h1 style="text-align:"> Hi!</h1>
+    <header style="background-color:black; width :100%; align-content:right">
+        <div style="align-self : right">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#body" style="text-decoration : none">HOME</a></li>
+                    <li><a href="#aboutme"style="text-decoration : none">ABOUT ME</a></li>
+                    <li><a href="#skills"style="text-decoration : none">WHAT I OFFER</a></li>
+                    <li><a href="#contact"style="text-decoration : none">CONTACT</a></li>
 
-<span class="style6 style8"><br />
-<p1 style="font-size: 20px" >  <span class="style9"><span class="style10"><big>W</big>elcome to my website! As you can probably tell, it's still under construction. My name is Sheikh Sameen Nawaar, and this is my progress so far on building this website.</span></span></p1><span class="style10"><br />
- <br />
-<p2 style="font-size: 20px"> This is actually the first website I am building using HTML. With experience from making websites in the past in UI guided environments, I believe building
-    and designing websites with the help of HTML will be a smooth ride for me. This page is supposedly made to be my portofolio, which means it'll feature the
-    skills I possess and am willing to offer.</p2><p2 style="font-size: 20px"></p2></span><span class="style9"><p2 style="font-size: 20px"> </p2></span></span><span style="font-family: &quot;Courier New&quot;, Courier, mono; font-size: 9px;"><p2 style="font-size: 20px"></p2><p2 style="font-size: 20px"></p2><p2 style="font-size: 20px"></p2><p2 style="font-size: 20px"></p2>
-    </span><br />
-<hr />
-<br />
-<center>
+                </ul>
 
-  <table width="571" border="0">
-    <tr>
-      <th width="277" height="169" scope="col"><p class="h1 h1 style5 style6">With 2 years of experience in object oriented coding and problem solving, I can develop softwares in C and C++ out of scratch. </p>      </th>
-      <th width="278" scope="col"><img style = "width : 60%" src = "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg"> </th>
-    </tr>
-  </table>
-  <br />
-	<br />
-    <table width="571" border="0">
-    <tr>
-	
-      <th width="277" height="169" scope="col"><img src = "https://cdn.discordapp.com/attachments/852857531305951232/857859191938220032/82CwqYwYAAAAASUVORK5CYII.png" />     </th>
-      <th width="278" scope="col"><p class="style7"> Video editing with Adobe Premiere Pro along with experience in  composing and editing music videos with proper mixing from source videos.</p></th>
-    </tr>
-  </table>
-    <table width="571" border="0">
-    <tr>
-      <th width="277" height="169" scope="col"><p class="h1 h1 style6 style5"> Photo editing and thumbnail designing with Adobe Photoshop </p>      </th>
-      <th width="278" scope="col"><img style = "width : 80%" src = "https://cdn.discordapp.com/attachments/852857531305951232/857866680389337118/aHR0cHM6Ly9zLmlzYW5vb2suY29tL2hpLzAvdWQvMzAyLzE1MTQxNDMvcHNfdGguanBn.png"> </th>
-    </tr>
-	</table>
-     <table width="571" border="0">
-    <tr>
-	
-      <th width="277" height="169" scope="col"><img style = "width : 50%" src = "https://cdn.discordapp.com/attachments/852857531305951232/857867783618822174/10eecf89cadbfca38a6af7e48832fb30.png" />     </th>
-      <th width="278" scope="col"><p class="style7"> Music composing, editing, mixing and mastering with FL Studio 20</p></th>
-    </tr>
-  </table>
-  
-  <div>
-  <p><br>
-    <br>
-    <span class="style6">Contact Me : </span></p>
-  <table width="200" border="0">
-    <tr>
-      <td height="36"><a href="https://twitter.com/urbanytee"> <img style = "width : 100%" src = "https://cdn.discordapp.com/attachments/852857531305951232/857890628385243136/image_2021-06-25_135052_860x900.png" /> </a></td>
-      <td height="36"><a href="https://www.facebook.com/sameen.sameennawaar/"> <img style = "width : 100%" src = "https://cdn.discordapp.com/attachments/852857531305951232/857880637465559060/47-473504_fb-round-logo-png-transparent-png.png" /> </a></td>
-      <td height="36"><a href="https://www.youtube.com/channel/UCy7ZpKdLLUKRu1avDGSzBaQ"> <img style = "width : 100%" src = "https://cdn.discordapp.com/attachments/852857531305951232/857882608229810176/75129-middle.png" /> </a></td>
-      <td height="36"><a href="https://www.linkedin.com/in/sheikh-sameen-nawaar-204809133/"> <img style = "width : 100%" src = "https://cdn.discordapp.com/attachments/852857531305951232/857887854037172245/linkedin-color-icon-linkedin-logo-round-11562920732qctvxkrdcd.png" /> </a></td>
-      <td height="36"><a href="https://nawaarbd@gmail.com"> <img style = "width : 100%" src = "https://cdn.discordapp.com/attachments/852857531305951232/857890959483207690/image_2021-06-25_135208_860x900.png" /> </a></td>
-  </table>
-  <p></p>
-  </div>
+            </nav>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
 
-  </footer>
-</center>
+
+        <br />
+        <br />
+    </header><main>
+
+
+
+    <h1 style="font-size: 200px; font-family: Abril Fatface; color : white; display : inline">Developer</h1>
+    <h1 style="font-size: 200px; font-family: Abril Fatface; color : white; display : inline; float : right; opacity : 10%; transform : rotate(-180deg) ">Developer</h1>
+    <h5 style="font-size: 80px; font-family: Abril Fatface; color : white; margin : 0; padding : 0">and designer.</h5>
+    <h5 style="font-size: 80px; font-family: Abril Fatface; color: white; margin: 0; padding: 0; display: inline; float: right; opacity: 10%; transform: rotate(-180deg) ">and designer.</h5>
+    <h5 style="font-size: 40px; font-family: Abril Fatface; color : white; margin : 0; padding : 0">(to say the least)</h5>
+    <h5 style="font-size: 40px; font-family: Abril Fatface; color: white; margin: 0; padding: 0; display: inline; float: right; opacity: 10%; transform: rotate(-180deg) ">(to say the least)</h5>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="Amatic">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h1 style="text-align : center; font-family : Encode Sans SC" id="aboutme">ABOUT ME</h1>
+        <hr style="width : 30%" />
+        <p style="font-size : 50px" >
+            Hey! Sheikh Sameen Nawaar here. <br /> Welcome to my portofolio. I'm a sixteen year old software and web developer. More skills include banner and thumbnail designing, music producing, professional video editing and photography. My passion for computers since a toddler is what got me into
+            developing. Currently focusing on school, I have plans to start freelancing really soon. Also have a lot of experience in writing articles and stories. With my ever expanding love for music, I'm currently learning to produce music using Digital audio workstations. Although I don't have plans to take it to a professional level,
+            I am intent on not missing the chance to make it a hobby for myself.
+
+        </p><p></p>
+        <p></p>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <center>
+        <div style="background-color : floralwhite; color : black" id="skills">
+            <table width="1040" border="0">
+                <tr>
+                  <th width="325" height="629" scope="col"><p style="font-family:'Encode Sans SC'; font-size : 23px; text-align : left" class="h1 h1 style5 style6">With 2 years of experience in object oriented coding and problem solving, I can develop softwares in C and C++ out of scratch. Previously worked with beginner teams and groups in institutional projects. </p>      </th>
+                    <th width="304" scope="col"><hr style="width : 90%; transform : rotate(-90deg)" /> </th>
+                    <th width="397" scope="col"><img style="width : 150%" src="https://cdn.discordapp.com/attachments/852857531305951232/862586179983376454/pexels-photo-276452.png"> </th>
+                </tr>
+          </table>
+        </div>
+        <br />
+        <br />
+        <table width="1040" height="710" border="0">
+            <tr>
+                <th width="325" height="629" scope="col"><img src="https://cdn.discordapp.com/attachments/852857531305951232/862394215153270804/image_2021-07-08_000626-removebg-preview.png" />     </th>
+                <th width="304" scope="col"><hr style="width : 90%; transform : rotate(-90deg)" /></th>
+                <th width="397" scope="col"><p class="style7 white-text" style="font-family : 'Encode Sans SC'; font-size : 23px; text-align : right"> Video editing with Adobe Premiere Pro along with experience in  composing and editing music videos with proper mixing from source videos.</p></th>
+            </tr>
+      </table>
+        <div style="background-color : floralwhite; color : black">
+            <table width="1040" border="0">
+                <tr>
+                    <th width="325" height="629" scope="col"><p class="h1 h1 style6 style5 white-text" style="font-family:'Encode Sans SC'; color: black; font-size : 23px; text-align : left"> Photo editing, coloring and mastering alongside thumbnail and poster designing with Adobe Photoshop </p>      </th>
+                    <th width="304" scope="col"><hr style="width : 90%; transform : rotate(-90deg)" /> </th>
+                    <th width="397" scope="col"><img style="width : 80%" src="https://cdn.discordapp.com/attachments/852857531305951232/862394365455237120/image_2021-07-08_000708-removebg-preview.png"> </th>
+                </tr>
+            </table>
+        </div>
+        <table width="1040" border="0">
+            <tr>
+
+                <th width="325" height="629" scope="col"><img style="width : 50%; align-content : left" src="https://cdn.discordapp.com/attachments/852857531305951232/862394979924967434/removal.ai_tmp-60e5eddcdcace.png" />     </th>
+                <th width="304" scope="col"><hr style="width : 90%; transform : rotate(-90deg)" /></th>
+                <th width="397" scope="col"><p class="style7 white-text" style="font-family:'Encode Sans SC'; font-size : 23px; text-align : right"> Music composing, editing, mixing and mastering with FL Studio 20</p></th>
+            </tr>
+        </table>
+
+ 
+        <footer>
+            <div class="footer">
+                <div class ="footer-content">
+                    <div class="footer-nav">
+                        <p>CONTACT ME AT :</p>
+                       
+     
+
+        </p>
+        <table width="300" border="0" id="contact">
+            <tr>
+                <td height="36"><a href="https://twitter.com/urbanytee" target="_blank"> <img style="width : 100%" src="https://cdn.discordapp.com/attachments/852857531305951232/857890628385243136/image_2021-06-25_135052_860x900.png" /> </a></td>
+                <td height="36"><a href="https://www.facebook.com/sameen.sameennawaar/" target="_blank"> <img style="width : 100%" src="https://cdn.discordapp.com/attachments/852857531305951232/857880637465559060/47-473504_fb-round-logo-png-transparent-png.png" /> </a></td>
+                <td height="36"><a href="https://www.youtube.com/channel/UCy7ZpKdLLUKRu1avDGSzBaQ" target="_blank"> <img style="width : 100%" src="https://cdn.discordapp.com/attachments/852857531305951232/857882608229810176/75129-middle.png" /> </a></td>
+                <td height="36"><a href="https://www.linkedin.com/in/sheikh-sameen-nawaar-204809133/" target="_blank"> <img style="width : 100%" src="https://cdn.discordapp.com/attachments/852857531305951232/857887854037172245/linkedin-color-icon-linkedin-logo-round-11562920732qctvxkrdcd.png" /> </a></td>
+                <td height="36"><a href="https://nawaarbd@gmail.com" target="_blank"> <img style="width : 100%" src="https://cdn.discordapp.com/attachments/852857531305951232/857890959483207690/image_2021-06-25_135208_860x900.png" /> </a></td>
+        </table>
+    </div>
+                    </div>
+                    <div>
+                        &copy; Made By Sheikh Sameen Nawaar
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
 </main>
 </body>
 </html>
